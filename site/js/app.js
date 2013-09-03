@@ -3,18 +3,4 @@ var app;
 
 app = app || {};
 
-$(function() {
-  var blocks;
-  blocks = [
-    {
-      title: "CFMS",
-      description: "CFMS Web Site",
-      image: "img/PlaceHolderImage.jpg"
-    }, {
-      title: "ACTIVITY",
-      description: "STE ACTIVITY Statistic",
-      image: "img/PlaceHolderImage.jpg"
-    }
-  ];
-  return new app.BlocksView(blocks);
-});
+$(function() {}, new app.BlocksView());
